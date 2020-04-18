@@ -163,7 +163,7 @@ public class Singleton {
 - `multi-thread`환경에서 동기화 처리 문제가 발생 할 수 있다. 
 
 ----
-####Reference
--[](https://elfinlas.github.io/2019/09/23/java-singleton/)
--[](https://jeong-pro.tistory.com/86)
--[](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36)
+#### Reference
+-[https://elfinlas.github.io/2019/09/23/java-singleton/](https://elfinlas.github.io/2019/09/23/java-singleton/)
+-[https://jeong-pro.tistory.com/86](https://jeong-pro.tistory.com/86)
+-[https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36)
