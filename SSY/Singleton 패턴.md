@@ -54,7 +54,8 @@ public class Singleton {
 
     static {
         try { makeInstance = new Singleton();}
-        catch(Exception e) { throw new RuntimeException("Create instace fail. error msg = " + e.getMessage() ); }
+        catch(Exception e) { 
+	throw new RuntimeException("Create instace fail. error msg = " + e.getMessage() ); }
     }
 
     public static Singleton getInstance() {
@@ -151,8 +152,7 @@ public class Singleton {
 
 ## Singleton 패턴의 장점
 
-- 한번의 생성으로 인스턴스를 사용하기 때문에 **고정된 메모리 영역**을 얻을 수 있다. 
-즉, `메모리 낭비`를 방지 할 수 있다.
+- 한번의 생성으로 인스턴스를 사용하기 때문에 **고정된 메모리 영역**을 얻을 수 있으므로 `메모리 낭비`를 방지 할 수 있다.
 
 - Singleton으로 만들어진 인스턴스는 `전역 인스턴스`이기 때문에 다른 클래스의 인스턴스들이 데이터를 **공유**하기 쉽다.
 <br>
@@ -160,12 +160,12 @@ public class Singleton {
 ## Singleton 패턴의 한계
 
 - Singleton으로 만든 인스턴스의 역할이 복잡한 경우라며 해당 인스턴스를 사용하는 
-`객체간의 상호의존도`가 높아져서 **객체 지향 설계 원칙**에 어긋나게 된다.
+`객체간의 상호 의존도`가 높아져서 **객체 지향 설계 원칙**에 어긋나게 된다.
 
 - `multi-thread`환경에서 동기화 처리 문제가 발생 할 수 있다. 
 
 ----
 #### Reference
-- [https://elfinlas.github.io/2019/09/23/java-singleton/](https://elfinlas.github.io/2019/09/23/java-singleton/)   
-- [https://jeong-pro.tistory.com/86](https://jeong-pro.tistory.com/86)   
-- [https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36)
+- [Java에서 싱글톤(Singleton) 패턴을 사용하는 이유와 주의할 점](https://elfinlas.github.io/2019/09/23/java-singleton/)   
+- [싱글톤 패턴(Singleton pattern)을 쓰는 이유와 문제점](https://jeong-pro.tistory.com/86)   
+- [싱글턴 패턴(Singleton Pattern)](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36)
