@@ -91,9 +91,9 @@ public class Singleton {
 ```
 
 `lazy Initialization`은 **getInstance()** 메소드가 호출 될 때, 클래스의 인스턴스가 사용되는 시점에 Singleton 객체를 생성한다. 
-<br>
 
-앞선 세가지 방식 모두 `Multi-thread`환경에서는 동작이 보장되지 못한다. 
+
+<br>앞선 세가지 방식 모두 `Multi-thread`환경에서는 동작이 보장되지 못한다. 
 <br>
 
 ![쓰레드](https://user-images.githubusercontent.com/43839951/79640641-8ce02500-81cd-11ea-8bc4-1f920b96c33c.JPG)
