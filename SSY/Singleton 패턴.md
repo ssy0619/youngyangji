@@ -14,7 +14,7 @@
 
 ## 자바의 Singleton 패턴 구현 방식
 
-### singleton 패턴 특징
+### singleton 패턴 구현 
 
 - **static** 속성을 이용하여 인스턴스화 하지 않고 사용
 - 접근 제한자가 **private**이므로 직접적인 접근 불가능
